@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    li{
+        padding: 8px;
+        border-radius: 8px;
+        margin-top: 2px;
+    }
+    ul li a{
+        font-size: 17px;
+        font-weight: 300;
+        text-align: left;
+        color: rgb(214, 214, 211);
+    }
+    span h1{
+        font-size: 30px;
+        background: linear-gradient(to left, rgb(18, 105, 219),rgb(37, 218, 97),rgb(214, 91, 19));
+        background-clip: text;
+    }
+    body{
+        padding: 0px;
+        margin: 0px;   
+        font-family: "Noto Sans", sans-serif;
+    }
+    q{
+        font-family: "Faculty Glyphic", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
